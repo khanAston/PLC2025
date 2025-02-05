@@ -1,0 +1,73 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U circle%b		circle.adb		47e6502b NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-comlin.ads		20180111085525 4aa66568 ada.command_line%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-inteio.ads		20170908151217 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D circle.adb		20250129120327 dab9747f circle%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 2r5 3r6 4r5
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 11|1w10 2r9
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 11|3w10 4r9
+X 8 a-textio.ads
+263U14*Put_Line 11|50s5
+X 11 circle.adb
+8U11*Circle 8b11 52l5 52t11
+10i3 size{integer} 15m5 22r27 24r21 38r25 49r15
+12U13 SetSize 12b13 17l7 17t14 48s3
+13i5 last{integer}
+19V12 ShouldPaint{boolean} 19>24 19>26 25s10 36b12 39l7 39t18
+19i24 i{integer} 36b24 38r30
+19i26 jj{integer} 36b26 38r32
+21V12 CircleLine{string} 21b12 21>23 32l7 32t17 50s14
+21i23 i{integer} 25r22
+22a5 result{string} 26m9 28m9 31r12
+24i9 jj{integer} 25r24 26r16 28r16
+34V12 ShouldPaintS{boolean} 34>25 34>27 34>29 38s12 41b12 45l7 45t19
+34i25 s{integer} 41b25 44r31 44r40
+34i27 i{integer} 41b27 44r17
+34i29 jj{integer} 41b29 42r20
+42i5 j{integer} 44r24
+49i7 i{integer} 50r25
+X 27 text_io.ads
+24K9*Text_IO=24:29 11|5w6 6r5
+

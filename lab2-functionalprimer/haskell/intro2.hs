@@ -16,7 +16,7 @@ prg1 = do
   print name  -- level of indentation is important
 
 -- the same, but using algebra of imperative programs:
-prg1' = sequence_ [print "hello ", print name]
+prg1' = sequence_ [print "hello apostrophe ", print name]
 
 -- one imperative program passing value to another:
 prg2 = do
@@ -37,6 +37,12 @@ toString value = show value
 -- string concatenation:
 greet1 = "hello " ++ name ++ (toString 123)
 -- the same, but with the operator as a function (like Lisp):
-greet2 = (++) "hello " name
+greet2 = (++) "hello2 " name
 -- concatenating more than 2 strings:
-greet3 = concat ["hello ", name, toString 123]
+greet3 = concat ["hello3 ", name, toString 123]
+
+main2 = 
+  do 
+  putStrLn greet1
+  putStrLn greet2
+  putStrLn greet3
