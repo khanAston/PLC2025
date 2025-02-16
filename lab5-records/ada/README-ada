@@ -1,0 +1,6 @@
+You can more conveniently compile and run an Ada program in this folder (ie ada)
+by executing the following command (assuming you have cd'd to this folder):
+
+bash compile-run-ada.sh <file_name>.adb
+
+Please use the TAB key to complete the program name and the file name when typing the above.
