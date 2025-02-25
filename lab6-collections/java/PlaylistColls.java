@@ -102,7 +102,7 @@ public class PlaylistColls {
         System.out.printf("playlist1noAds_streams = %s\n", playlist1noAds_streams);
 
         List<Float> shortItemLengths1 = new ArrayList<>();
-        // TASK 5.2(b)...
+        // TASK 6.2(b)...
 
 
 
